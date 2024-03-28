@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T03:50:59.280Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="LOAx9hpJa86BvJG3RyHL" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T03:53:07.271Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="1_etALcvjl8f-Jd-5CtD" version="24.2.0" type="github">
   <diagram name="第 1 页" id="RESxf1cw6iVFQKryeCCg">
     <mxGraphModel dx="1242" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-1" value="基础数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="190" width="240" height="182" as="geometry" />
+          <mxGeometry x="80" y="190" width="240" height="208" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-2" value="+ bczId: 百词斩id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -25,6 +25,9 @@
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-11" value="+ interests: 兴趣标签" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-1">
           <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="8ehRU_fh2GxWfl6_OMSD-62" value="+ activeInterests: 动态兴趣标签" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-1">
+          <mxGeometry y="182" width="240" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-5" value="用户数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="120" width="240" height="52" as="geometry" />
         </mxCell>
@@ -35,7 +38,7 @@
           <mxGeometry x="80" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-12" value="动态分数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="390" width="240" height="130" as="geometry" />
+          <mxGeometry x="80" y="430" width="240" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-13" value="+ socialScore: 社交意愿分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-12">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -53,7 +56,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-18" value="同桌" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="540" width="240" height="130" as="geometry" />
+          <mxGeometry x="80" y="580" width="240" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-19" value="+ userId: 用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-18">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -71,7 +74,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-26" value="问卷" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="610" y="90" width="120" height="40" as="geometry" />
+          <mxGeometry x="620" y="50" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="8ehRU_fh2GxWfl6_OMSD-28" target="8ehRU_fh2GxWfl6_OMSD-2">
           <mxGeometry relative="1" as="geometry" />
@@ -80,10 +83,17 @@
           <mxGeometry x="445" y="150" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ehRU_fh2GxWfl6_OMSD-30" target="8ehRU_fh2GxWfl6_OMSD-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ehRU_fh2GxWfl6_OMSD-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ehRU_fh2GxWfl6_OMSD-30" target="8ehRU_fh2GxWfl6_OMSD-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-30" value="用户行为" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="260" width="240" height="104" as="geometry" />
+          <mxGeometry x="570" y="280" width="240" height="104" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-43" value="+ userId: 用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-30">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -111,13 +121,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-46" value="行为分析" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontStyle=0;startSize=26;" vertex="1" parent="1">
-          <mxGeometry x="440" y="415" width="80" height="80" as="geometry" />
+          <mxGeometry x="440" y="455" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ehRU_fh2GxWfl6_OMSD-54" target="8ehRU_fh2GxWfl6_OMSD-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-54" value="用户行为" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;fontStyle=0;startSize=26;" vertex="1" parent="1">
-          <mxGeometry x="630" y="565" width="80" height="80" as="geometry" />
+          <mxGeometry x="650" y="605" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
