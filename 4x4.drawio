@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T03:16:51.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="EPP1xGRmm-3k38C60ATb" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T03:19:56.365Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="jQ1WQ-OVBBu8kx22twyz" version="24.2.0" type="github">
   <diagram name="第 1 页" id="RESxf1cw6iVFQKryeCCg">
     <mxGraphModel dx="1242" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-1" value="基础数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="240" height="182" as="geometry" />
+          <mxGeometry x="80" y="190" width="240" height="182" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-2" value="+ bczId: 百词斩id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="80" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-12" value="动态分数" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="400" width="240" height="130" as="geometry" />
+          <mxGeometry x="80" y="390" width="240" height="130" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-13" value="+ socialScore: 社交意愿分" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-12">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry y="104" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-18" value="同桌" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="585" width="240" height="182" as="geometry" />
+          <mxGeometry x="80" y="540" width="240" height="182" as="geometry" />
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-19" value="+ userId: 用户id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-18">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -69,6 +69,22 @@
         </mxCell>
         <mxCell id="8ehRU_fh2GxWfl6_OMSD-24" value="+ item: attribute" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="8ehRU_fh2GxWfl6_OMSD-18">
           <mxGeometry y="156" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8ehRU_fh2GxWfl6_OMSD-26" value="问卷" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ehRU_fh2GxWfl6_OMSD-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="8ehRU_fh2GxWfl6_OMSD-26" parent="1" target="8ehRU_fh2GxWfl6_OMSD-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ehRU_fh2GxWfl6_OMSD-28" value="已有数据（百词斩）" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ehRU_fh2GxWfl6_OMSD-29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="8ehRU_fh2GxWfl6_OMSD-28" parent="1" target="8ehRU_fh2GxWfl6_OMSD-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
